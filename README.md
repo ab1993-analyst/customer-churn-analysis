@@ -112,11 +112,11 @@ customer-churn-analysis/
 │   └── churn_analysis.R
 │
 ├── images/
-│   ├── churn-contract.png
-│   ├── monthly-charges.png
-│   ├── tenure-analysis.png
-│   ├──
-|   └──
+│   ├── Churn by Contract Type.png
+|   ├── Churn by Internet Service.png
+    ├── Customer Tenure Distribution.png
+    └── Monthly Charges vs Churn.png 
+|   
 └── README.md
 ```
 
@@ -124,4 +124,7 @@ customer-churn-analysis/
 
 ## Author
 
-Ahmed basheer
+**Ahmed Basheer**  
+Aspiring Data Analyst  
+
+SQL | Google Sheets | Tableau | Rstudio
