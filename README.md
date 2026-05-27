@@ -93,13 +93,13 @@ This may indicate pricing or service satisfaction issues.
 ![Churn by Contract](visuals/Churn by Contract Type.png)
 
 ### Monthly Charges vs Churn
-![Monthly Charges](visuals/Monthly Charges vs Churn.png)
+![Monthly Charges vs Churn](visuals/Monthly Charges vs Churn.png)
 
 ### Customer Tenure Distribution
-![Tenure Distribution](visuals/Customer Tenure Distribution.png)
+![Customer Tenure Distribution](visuals/Customer Tenure Distribution.png)
 
 ### Churn by Internet Service
-![Internet Service](visuals/Churn by Internet Service.png)
+![Churn by Internet Service](visuals/Churn by Internet Service.png)
 ---
 
 ## Project Structure
