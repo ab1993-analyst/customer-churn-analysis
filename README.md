@@ -90,14 +90,16 @@ This may indicate pricing or service satisfaction issues.
 ## Visualizations
 
 ### Churn by Contract Type
-![Churn by Contract](images/churn-contract.png)
+![Churn by Contract](visuals/Churn by Contract Type.png)
 
 ### Monthly Charges vs Churn
-![Monthly Charges](images/monthly-charges.png)
+![Monthly Charges](visuals/Monthly Charges vs Churn.png)
 
 ### Customer Tenure Distribution
-![Tenure Distribution](images/tenure-analysis.png)
+![Tenure Distribution](visuals/Customer Tenure Distribution.png)
 
+### Churn by Internet Service
+![Internet Service](visuals/Churn by Internet Service.png)
 ---
 
 ## Project Structure
