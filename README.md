@@ -66,7 +66,7 @@ Created visualizations using ggplot2:
 
 ## 📌 Churn by Contract Type
 
-![Churn by Contract Type](./visuals/churn_contract_type.png)
+![Churn_by Contract Type](./visuals/churn_by_contract_type.png)
 
 ---
 
