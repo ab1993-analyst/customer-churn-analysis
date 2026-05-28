@@ -100,6 +100,7 @@ This may indicate pricing or service satisfaction issues.
 
 ### Churn by Internet Service
 ![Churn by Internet Service](visuals/Churn by Internet Service.png)
+
 ---
 
 ## Project Structure
