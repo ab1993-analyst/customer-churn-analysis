@@ -1,7 +1,5 @@
 📊 Customer Churn Analysis Using R
 
-
-
 📌 Project Overview
 
 This project analyzes customer churn behavior using the IBM Telco Customer Churn dataset.
@@ -151,6 +149,7 @@ source("scripts/churn_analysis.R")
 
 👤 Author
 
+**Ahmed Basheer** 
 Aspiring Data Analyst
 
 📌 Skills:
