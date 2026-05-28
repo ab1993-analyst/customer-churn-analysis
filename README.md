@@ -1,172 +1,134 @@
-📊 Customer Churn Analysis Using R
+# 📊 Customer Churn Analysis Using R
 
-📌 Project Overview
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white)
+![ggplot2](https://img.shields.io/badge/ggplot2-Data%20Visualization-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+
+---
+
+# 📌 Project Overview
 
 This project analyzes customer churn behavior using the IBM Telco Customer Churn dataset.
 
-The objective is to identify patterns and business factors contributing to customer churn and provide actionable recommendations to improve customer retention.
+The goal is to identify key factors that influence customer churn and provide actionable insights for improving customer retention.
 
+---
 
+# 🗂️ Dataset
 
-🗂️ Dataset
+📌 **Dataset:** IBM Telco Customer Churn Dataset  
+🔗 **Source:** IBM Sample Data (Telco Customer Churn)
 
-📌 Dataset Source
+---
 
-IBM Telco Customer Churn Dataset
+# 🛠️ Tools & Technologies
 
-🔗 Source
+- 📘 R Programming
+- 💻 RStudio
+- 📊 ggplot2
+- 🧹 dplyr
+- 📂 readr
+- 🔄 tidyverse
 
-Focused customer retention analysis dataset provided by IBM.
+---
 
+# 📈 Project Workflow
 
+## 1️⃣ Data Import
+- Loaded dataset into RStudio
 
-🛠️ Tools & Technologies
+## 2️⃣ Data Cleaning
+- Converted `TotalCharges` to numeric
+- Handled missing values
+- Checked data consistency
 
-📘 R
-💻 RStudio
-📊 ggplot2
-🧹 dplyr
-📂 readr
-🔄 tidyverse
+## 3️⃣ Exploratory Data Analysis (EDA)
+Analyzed:
+- Customer churn rate
+- Contract types
+- Monthly charges
+- Customer tenure
+- Internet services
 
-
-📈 Project Workflow
-
-1️⃣ Data Import
-
-Imported customer churn dataset into RStudio
-2️⃣ Data Cleaning
-
-Converted TotalCharges to numeric format
-Removed missing values
-Checked data consistency
-3️⃣ Exploratory Data Analysis (EDA)
-
-Performed analysis on:
-
-Customer churn rate
-Contract types
-Monthly charges
-Customer tenure
-Internet services
-4️⃣ Data Visualization
-
+## 4️⃣ Data Visualization
 Created visualizations using ggplot2:
+- Churn by contract type
+- Monthly charges vs churn
+- Customer tenure distribution
+- Churn by internet service
 
-Churn by contract type
-Monthly charges vs churn
-Customer tenure distribution
-Churn by internet service
+---
 
+# 📊 Visualizations
 
-📊 Visualizations
+---
 
-📌 Churn by Contract Type
+## 📌 Churn by Contract Type
 
+![Churn by Contract Type](./visuals/churn_contract_type.png)
 
+---
 
-📌 Monthly Charges vs Churn
+## 📌 Monthly Charges vs Churn
 
+![Monthly Charges vs Churn](./visuals/monthly_charges_vs_churn.png)
 
+---
 
-📌 Customer Tenure Distribution
+## 📌 Customer Tenure Distribution
 
+![Customer Tenure Distribution](./visuals/customer_tenure_distribution.png)
 
+---
 
-📌 Churn by Internet Service
+## 📌 Churn by Internet Service
 
+![Churn by Internet Service](./visuals/churn_by_internet_service.png)
 
+---
 
-🔍 Key Findings
+# 🔍 Key Findings
 
-📌 Month-to-Month Contracts Had Highest Churn
+## 📉 Month-to-Month Contracts Have Highest Churn
+Customers without long-term contracts are more likely to leave.
 
-Customers without long-term commitments were significantly more likely to leave the company.
+## 💰 Higher Monthly Charges Increase Churn
+Customers paying higher fees show higher churn probability.
 
-📌 Higher Monthly Charges Increased Churn Risk
+## 📈 Longer Tenure Reduces Churn
+Long-term customers are more loyal and stable.
 
-Customers paying higher monthly fees showed increased churn behavior.
+## 🌐 Fiber Optic Customers Show Higher Churn
+Possible issues with pricing or service satisfaction.
 
-📌 Longer Customer Tenure Reduced Churn
+---
 
-Long-term customers demonstrated stronger loyalty and lower cancellation rates.
+# 💡 Business Recommendations
 
-📌 Fiber Optic Customers Showed Higher Churn
+- ✅ Promote long-term contracts
+- ✅ Improve onboarding experience
+- ✅ Introduce loyalty rewards
+- ✅ Optimize pricing strategies for high-paying customers
+- ✅ Investigate fiber optic service satisfaction
 
-This may indicate potential pricing concerns or service dissatisfaction.
+---
 
+# 📁 Project Structure
 
-
-💡 Business Recommendations
-
-✅ Encourage long-term contracts through incentives
-✅ Improve onboarding for new customers
-✅ Introduce loyalty rewards programs
-✅ Create pricing strategies for high-paying customers
-✅ Investigate service satisfaction among fiber optic users
-
-
-📁 Project Structure
-
+```text
 customer-churn-analysis/
-
 │
-
 ├── data/
-
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-
 │
-
 ├── scripts/
-
 │   └── churn_analysis.R
-
 │
-
 ├── visuals/
-
 │   ├── churn_contract_type.png
-
 │   ├── monthly_charges_vs_churn.png
-
 │   ├── customer_tenure_distribution.png
-
 │   └── churn_by_internet_service.png
-
 │
-
 └── README.md
-
-🚀 How to Run the Project
-
-Clone the repository
-git clone https://github.com/ab1993-analyst/customer-churn-analysis.git
-
-Open the project in RStudio
-Run:
-source("scripts/churn_analysis.R")
-
-👤 Author
-
-**Ahmed Basheer** 
-Aspiring Data Analyst
-
-📌 Skills:
-
-SQL
-R
-Tableau
-Google Sheets
-Data Visualization
-Exploratory Data Analysis
-
-
-⭐ Project Highlights
-
-✔️ Real-world telecom dataset
-✔️ Data cleaning and preprocessing
-✔️ Exploratory data analysis
-✔️ Business insights and recommendations
-✔️ Professional data visualizations
-
