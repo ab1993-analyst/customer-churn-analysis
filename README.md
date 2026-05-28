@@ -126,7 +126,7 @@ customer-churn-analysis/
 │   └── churn_analysis.R
 │
 ├── visuals/
-│   ├── churn_contract_type.png
+│   ├── churn_by_contract_type.png
 │   ├── monthly_charges_vs_churn.png
 │   ├── customer_tenure_distribution.png
 │   └── churn_by_internet_service.png
