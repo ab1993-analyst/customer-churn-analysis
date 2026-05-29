@@ -132,3 +132,16 @@ customer-churn-analysis/
 │   └── churn_by_internet_service.png
 │
 └── README.md
+
+
+📊 Skills:  
+
+SQL | Google Sheets | Data Visualization | Data Analysis | Tableau |
+
+📫 Contact:  
+
+Email: ab11999333@gmail.com  
+
+LinkedIn: http://linkedin.com/in/ahmed-basheer93
+
+GitHub Portfolio: https://ab1993-analyst.github.io/#portfolio
